@@ -134,9 +134,98 @@ elif chk_1 != "left":
         print("SCREEEEEEEEEEEEEEEEEECCCCCCHHHHHIIIIINNNNGGGGGGG")
     async def display():
         await asyncio.sleep(3)
+        print("*****You are Dead!")
+        exit
+    asyncio.run(display())
+else: 
+    async def display():
+        await asyncio.sleep(3)
+        print("****CORRECT!! You quickly move down the hall and come out onto a landing surrounded by water.")
+    asyncio.run(display())
+    async def display():
+        await asyncio.sleep(3)
+        print(f"Mentor: You now have another decicion to make Baiter first class {n_user}...")
+    asyncio.run(display())
+    async def display():
+        await asyncio.sleep(2)
+        print(f"Mentor: oh hey {n_user}... you were a baiter on the fish deck.... i think i owed you a drink... hope you live through this.... yarrrrrrrrr...")
+    asyncio.run(display())
+    async def display():
+        await asyncio.sleep(3)
+        print("Mentor: Meh we'll worry about that later.... and no... don't worry about how I got down here. ON TO DECISIONS!")
+    asyncio.run(display())
+    async def display():
+        await asyncio.sleep(3)
+        print("Now then we have some choices to make. You can either wait for the boat to come back. or Swim if you're too stubborn to wait.")
+    asyncio.run(display())
+    chk_2 = input("What would you like to do? Wait or Swim? \n")
+    chk_2 = chk_2.lower()
+    print(f"{chk_2}")
+if chk_2 == "swim":
+    async def display():
+        await asyncio.sleep(3)
+        print("You should have never done that. You were subdued and taken hostage by feral mermen led by the notorious CHIEF TURBO the Swift Nippled")
+        await asyncio.sleep(2)
+        print("EERIE VOICE: You are being prepared for a ritual feast. You are the main course.")
         print("You are Dead!")
         exit
     asyncio.run(display())
+elif chk_2 != "wait":
+    async def display():
+        await asyncio.sleep(3)
+        print("****LIGHTNING STRIKES IN THE SKY")
+        await asyncio.sleep(2)
+        print("EERIE VOICE: You have been electrocuted to death.. then brought back to life, and beaten with a rubber chicken... to death...again...")
+        print("*******You are Dead ... again... loser..!")
+        exit
+        asyncio.run(display())
+else:
+    print(f"Well done Baiter First Class {n_user}! You're doing much better than I thought you would. BUT don't get comfortable. You're not safe yet!! YARR!!! NOT NEARLY!!")
+    
+async def display():
+    await asyncio.sleep(6)
+    print("EERIE VOICE ****LAST CHANCE TO LIVE!!! CHOOSE YOUR PATH!")
+    await asyncio.sleep(4)
+    print(f"{n_user}. You have before you.. a broken down old house...you slowly move through the front door to be faced with 3 SHINY doors. YOU MUST CHOOSE!!!!")
+asyncio.run(display())
+chk_3 = input("Mentor: Which color door will ye be choosin' Red?, Blue, or Yellow--**** CHOOSE NOW!! \n")
+chk_3 = chk_3.lower()
+if chk_3 == "red":
+    async def display():
+        await asyncio.sleep(3)
+        print("The red door do it be??? YARRRR!!........BEHOLD...THE QUEEEN...THE VILE...")
+        await asyncio.sleep(2)
+        print(f"Mentor: Baiter First Class {n_user}... You could not have chosen a more wrong door...BEHOLD AGAIN!!!!! Queen Resting Witch Face herself!!! Piper the BLACK!!!")
+        await asyncio.sleep(2)
+        print("*********Piper the BLACK uses Disgruntled Papillon Death magic to cause your entire body to dissolve.")
+        print("******** YOU ARE DEAD!!")
+        exit
+    asyncio.run(display())
+elif chk_3 == "blue":
+    async def display():
+        await asyncio.sleep(3)
+        print("EERIE VOICE: The blue door do it be?? YARRR!!! Grandma the wicked caught you trying to steal coffee.")
+        await asyncio.sleep(2)
+        print("*****Grandma Sue the Wicked Rips out your finger nails, and shows them to your!")
+        print("******** YOU ARE DEAD")
+        exit
+    asyncio.run(display())
+elif chk_3 != "red" and chk_3 != "blue" and chk_3 != "yellow":
+    async def display():
+        await asyncio.sleep(6)
+        print("EERIE VOICE: You have been caught trying to steal leftovers...*******You DIE A HORRIBLE DEATH")
+        print("***** You are Dead!!!")
+        exit
+    asyncio.run(display())
+else:
+    async def display():
+        await asyncio.sleep(2)
+        print(f"**** You've done it!!! Congratulations Baiter First Class {n_user}..")
+        await asyncio.sleep(2)
+        print(f"***You have been promoted {n_user} to... Master Baiter {n_user}!!")
+        print("*****THE END!!!!")
+    asyncio.run(display())
 
+    
 
 
