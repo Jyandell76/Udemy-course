@@ -1,0 +1,11 @@
+1st check left or right
+right or anything else you die.
+
+2nd check swim or wait
+swim or anything else you die.
+
+3rd check come to a house with 3 doors
+red blue and yellow 
+red dead
+blue dead
+yellow hero
