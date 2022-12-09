@@ -8,7 +8,7 @@ c_ = 0
 f_ = 0
 sum_ = int(0)
 for s in student_heights:
-    sum_ = sum_+student_heights[f_]
+    sum_ += student_heights[f_]
     f_ += 1
 avg_ = round(sum_ / f_)
 print(f"{avg_}")    
