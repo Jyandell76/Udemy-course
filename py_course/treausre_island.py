@@ -42,7 +42,7 @@ print(" ")
 print(" ")
 async def display():
     await asyncio.sleep(5)
-    print("Mentor: If you can stay alive long enough, you too can becoma Pirate Mentor!!!...IF!!")
+    print("Mentor: If you can stay alive long enough, you too can become a Pirate Mentor!!!...BIG BIG IF!!")
 asyncio.run(display())
 print(" ")
 async def display():
@@ -164,7 +164,7 @@ else:
 if chk_2 == "swim":
     async def display():
         await asyncio.sleep(3)
-        print("You should have never done that. You were subdued and taken hostage by feral mermen led by the notorious CHIEF TURBO the Swift Nippled")
+        print("You should have never done that. You were subdued and taken hostage by feral mermen led by the notorious CHIEF TURBO the Swift One")
         await asyncio.sleep(2)
         print("EERIE VOICE: You are being prepared for a ritual feast. You are the main course.")
         print("You are Dead!")
@@ -222,7 +222,7 @@ else:
         await asyncio.sleep(2)
         print(f"**** You've done it!!! Congratulations Baiter First Class {n_user}..")
         await asyncio.sleep(2)
-        print(f"***You have been promoted {n_user} to... Master Baiter {n_user}!!")
+        print(f"***Baiter First Class {n_user}, you have been promoted!! toooo... Master Baiter {n_user}!! =)")
         print("*****THE END!!!!")
     asyncio.run(display())
 
